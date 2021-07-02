@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 header {
@@ -36,4 +37,11 @@ header h1 {
 .main-box nav, .main-box main {
   width: 50%;
 }
+
+nav li {
+  line-height: 100px;
+}
+
+
+
 
