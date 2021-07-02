@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-image: url(../assets/hockey1.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.subtitle-box {
+  background-color: black;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.subtitle-box h2 {
+  color: white;
+  margin: 0;
+}
+
+.main-box {
+  display: flex;
+}
+
+.main-box nav, .main-box main {
+  width: 50%;
+}
+
