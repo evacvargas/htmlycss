@@ -3,45 +3,108 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-}
+    background-color: antiquewhite;
+  }
 
 header {
   background-image: url(../assets/hockey1.jpg);
-  height: 500px;
+  height: 250px;
   background-size: cover;
   background-position: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  }
+
+header div img {
+  width: 200px;
 }
+
+.logoImg {
+  filter: drop-shadow(5px 5px 5px #fff);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  top: unset;
+  bottom: 0;
+  right: 17%;
+  bottom: -100px;
+}
+
 
 header h1 {
   font-size: 60px;
   margin: 0;
+  filter: drop-shadow(5px 5px 5px #fff);
+  color: rgb(82, 42, 42);
 }
 
 .subtitle-box {
-  background-color: black;
+  background-color: rgb(82, 67, 67);
   text-align: center;
   padding-block: 10px;
 }
 
-.subtitle-box h2 {
-  color: white;
-  margin: 0;
+.subtitle-box {
 }
 
-.main-box {
+.subtitle-box h2 {
+  height: 30px;
+  margin: 0;
+  color: white;
+}
+
+main {
+  padding: 20px;
   display: flex;
 }
 
-.main-box nav, .main-box main {
-  width: 50%;
+main div {
+  width: 30%;
 }
 
-nav li {
-  line-height: 100px;
+.articles {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
+.articlesDos {
+display: flex;
+flex-direction: column;
+}
 
+a {
+  text-decoration: none;
+}
 
+div nav {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+div nav a {
+  width: 30vw;
+  font-size: 16px;
+  color: rgb(82, 42, 42);
+  font-weight: bold;
+}
+
+article label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article p {
+  padding-left: 25px;
+}
+
+article p {
+  margin-bottom: 25px;
+  font-style: italic;
+}
